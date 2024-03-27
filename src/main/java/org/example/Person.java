@@ -21,5 +21,25 @@ public class Person {
         this.hobbies=hobbies;
     }
 
+    public String getFirstName(){
+        return firstName;
+    }
+
+    public String getLastName(){
+        return lastName;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public boolean isTeen(){
+        return this.age>=13 && this.age<=19;
+    }
+
+    public String[] getHobbies(){
+        return hobbies;
+    }
+
 
 }
