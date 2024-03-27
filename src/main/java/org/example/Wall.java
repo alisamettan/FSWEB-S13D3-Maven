@@ -17,6 +17,16 @@ public class Wall {
         return  height;
     }
 
-    public double
+    public void setHeight(double height){
+        this.height=height<0?0:height;
+    }
+
+    public  void setWidth(double width){
+        this.width=width<0?0:width;
+    }
+
+    public double getArea(){
+        return width*height;
+    }
 
 }
